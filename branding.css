@@ -1,0 +1,37 @@
+.branding-thq-branding-elm {
+  gap: var(--dl-layout-space-halfunit);
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+}
+ 
+.branding-thq-logo-elm {
+  width: 26px;
+  height: 26px;
+  object-fit: cover;
+}
+ 
+.branding-thq-company-name-elm {
+  color: rgb(34, 34, 35);
+  font-size: 36px;
+  font-style: normal;
+  font-family: "Lora";
+  font-weight: 500;
+  line-height: 54px;
+}
+ 
+
+ 
+
+ 
+@media(max-width: 767px) {
+  .branding-thq-logo-elm {
+    width: 15px;
+    height: 15px;
+  }
+  .branding-thq-company-name-elm {
+    font-size: 21px;
+    line-height: 32px;
+  }
+}

@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>rei</title>
+    <meta property="og:title" content="rei" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}pre {  white-space: normal;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Karla;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background: var(--dl-color-gray-white);
+
+        fill: var(--dl-color-gray-black);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/animate.css@4.1.1/animate.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+  </head>
+  <body>
+    <link rel="stylesheet" href="./style.css" />
+    <div>
+      <link href="./index.css" rel="stylesheet" />
+
+      <div class="home-container1">
+        <banner-wrapper class="banner-wrapper">
+          <!--Banner component-->
+          <div
+            id="banner"
+            data-persistence="true"
+            class="banner-thq-banner-elm"
+          >
+            <div class="banner-thq-captions-elm">
+              <div class="banner-thq-caption-elm1"></div>
+              <a href="https://medium.com" class="banner-link">
+                <div class="banner-thq-caption-elm2">
+                  <span class="banner-text1"><span>Join our</span></span>
+                  <span class="banner-text2"><span>newsletter</span></span>
+                </div>
+              </a>
+            </div>
+            <div id="close" class="banner-thq-close-elm">
+              <svg viewBox="0 0 1024 1024" class="banner-icon1">
+                <path
+                  d="M225.835 286.165l225.835 225.835-225.835 225.835c-16.683 16.683-16.683 43.691 0 60.331s43.691 16.683 60.331 0l225.835-225.835 225.835 225.835c16.683 16.683 43.691 16.683 60.331 0s16.683-43.691 0-60.331l-225.835-225.835 225.835-225.835c16.683-16.683 16.683-43.691 0-60.331s-43.691-16.683-60.331 0l-225.835 225.835-225.835-225.835c-16.683-16.683-43.691-16.683-60.331 0s-16.683 43.691 0 60.331z"
+                ></path>
+              </svg>
+            </div>
+          </div>
+        </banner-wrapper>
+        <section class="home-thq-hero-elm">
+          <div class="home-thq-main-elm1">
+            <div class="home-thq-content-elm1">
+              <header class="home-thq-header-elm1">
+                <header
+                  data-thq="thq-navbar"
+                  class="home-thq-navbar-interactive-elm"
+                >
+                  <branding-wrapper
+                    class="branding-wrapper"
+                    rootclassname="brandingundefined"
+                  >
+                    <!--Branding component-->
+                    <div
+                      id=""
+                      class="branding-thq-branding-elm brandingroot-class-name1"
+                    >
+                      <img
+                        alt="image"
+                        src="public/logo.svg"
+                        class="branding-thq-logo-elm"
+                      />
+                      <h2 class="branding-thq-company-name-elm">
+                        <span>Reis</span>
+                      </h2>
+                    </div>
+                  </branding-wrapper>
+                  <div
+                    data-thq="thq-navbar-nav"
+                    data-role="Nav"
+                    class="home-thq-desktop-menu-elm"
+                  >
+                    <div class="home-thq-links-elm1">
+                      <a
+                        href="https://storage.googleapis.com/playground-bucket-v2.teleporthq.io/72dadc19-d3f7-4df1-92ed-5752f23fb6de/a623d928-f3bf-4460-ad25-b6a97d9a72a6"
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        class="home-thq-link-elm1 navLink"
+                      >
+                        Resume+Refrences
+                      </a>
+                      <a href="#Branding" class="home-thq-link-elm2 navLink">
+                        Tutoring
+                      </a>
+                      <a href="#Branding" class="home-thq-link-elm3 navLink">
+                        Events
+                      </a>
+                      <a
+                        href="mailto:reisworkiservices@gmail.com?subject=More info!"
+                        class="home-thq-link-elm4 navLink"
+                      >
+                        Contact
+                      </a>
+                    </div>
+                  </div>
+                  <div
+                    data-thq="thq-burger-menu"
+                    class="home-thq-burger-menu-elm"
+                  >
+                    <button class="button">
+                      <svg viewBox="0 0 1024 1024" class="home-icon10">
+                        <path
+                          d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"
+                        ></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div
+                    data-thq="thq-mobile-menu"
+                    class="home-thq-mobile-menu-elm"
+                  >
+                    <div
+                      data-thq="thq-mobile-menu-nav"
+                      data-role="Nav"
+                      class="home-thq-nav-elm"
+                    >
+                      <div class="home-thq-container-elm">
+                        <branding-wrapper-as8r
+                          class="branding-wrapper-as8r"
+                          rootclassname="brandingundefined"
+                        >
+                          <!--Branding component-->
+                          <div
+                            id="Branding"
+                            class="branding-thq-branding-elm1 brandingroot-class-name"
+                          >
+                            <img
+                              alt="image"
+                              src="public/logo.svg"
+                              class="branding-thq-logo-elm1"
+                            />
+                            <h2 class="branding-thq-company-name-elm1">
+                              <span>Helpa</span>
+                            </h2>
+                          </div>
+                        </branding-wrapper-as8r>
+                        <div
+                          data-thq="thq-close-menu"
+                          class="home-thq-menu-close-elm"
+                        >
+                          <svg viewBox="0 0 1024 1024" class="home-icon12">
+                            <path
+                              d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                            ></path>
+                          </svg>
+                        </div>
+                      </div>
+                      <div class="home-thq-links-elm2">
+                        <a href="index.html" class="home-thq-link-elm5 navLink">
+                          Mission
+                        </a>
+                        <a href="index.html" class="home-thq-link-elm6 navLink">
+                          Take Action
+                        </a>
+                        <a href="index.html" class="home-thq-link-elm7 navLink">
+                          News
+                        </a>
+                        <a href="index.html" class="home-thq-link-elm8 navLink">
+                          Contact
+                        </a>
+                      </div>
+                      <div class="home-thq-icon-group-elm">
+                        <svg
+                          viewBox="0 0 950.8571428571428 1024"
+                          class="home-icon14"
+                        >
+                          <path
+                            d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"
+                          ></path></svg
+                        ><svg
+                          viewBox="0 0 877.7142857142857 1024"
+                          class="home-icon16"
+                        >
+                          <path
+                            d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"
+                          ></path></svg
+                        ><svg
+                          viewBox="0 0 602.2582857142856 1024"
+                          class="home-icon18"
+                        >
+                          <path
+                            d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"
+                          ></path>
+                        </svg>
+                      </div>
+                    </div>
+                  </div>
+                </header>
+              </header>
+              <div class="home-thq-hero-section-elm">
+                <div class="home-thq-header-elm2">
+                  <h1 class="home-thq-heading-elm1">About me</h1>
+                  <p class="home-thq-caption-elm1">
+                    <span>
+                      I’m a dedicated freelance tutor with hands-on experience
+                      working with students in grades K–12, as well as families
+                      who need dependable childcare, pet care, and event
+                      support.
+                    </span>
+                    <br />
+                    <br />
+                    <span>
+                      I’m known for being patient, organized, and reliable.
+                      Whether I’m helping a student build confidence in school,
+                      caring for children, walking dogs, or designing party
+                      décor, I always prioritize safety, communication, and a
+                      positive experience.
+                    </span>
+                    <br />
+                  </p>
+                </div>
+                <div class="home-thq-buttons-elm"></div>
+              </div>
+            </div>
+            <div class="home-thq-image-elm">
+              <img
+                alt="pastedImage"
+                src="public/external/pastedimage-awoc-500w.jpeg"
+                class="home-thq-pasted-image-elm1"
+              />
+            </div>
+          </div>
+          <div class="home-thq-details-container-elm"></div>
+        </section>
+        <section class="home-thq-mission-elm">
+          <div class="home-thq-content-elm2">
+            <div class="home-thq-main-elm2">
+              <div class="home-thq-header-elm3">
+                <h2 class="home-thq-heading-elm2">Tutoring&nbsp;</h2>
+                <p class="home-thq-caption-elm2">
+                  I am offering homework help, test help, subject support and
+                  study skills and organization help.I believe every child
+                  learns differently, every family has unique needs, and every
+                  event deserves thoughtful attention. My services are flexible,
+                  personalized, and designed to make life easier for busy
+                  families.
+                </p>
+              </div>
+            </div>
+            <div class="home-thq-highlights-elm">
+              <div class="home-thq-highlight-elm1">
+                <h3 class="home-thq-title-elm1">Online</h3>
+                <p class="home-thq-description-elm1">
+                  A Great way to be flexible and have the same resources,
+                  convenient to do from the comfort of your own home.
+                </p>
+              </div>
+              <div class="home-thq-highlight-elm2">
+                <h3 class="home-thq-title-elm2">Inperson</h3>
+                <p class="home-thq-description-elm2">
+                  Able to meet at a public library or coffee shop, great for
+                  those who don't do as well online!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="home-thq-images-elm">
+            <div class="home-thq-row-elm"></div>
+          </div>
+          <img
+            alt="pastedImage"
+            src="public/external/pastedimage-8uxn-400h.png"
+            class="home-thq-pasted-image-elm2"
+          />
+        </section>
+        <section class="home-thq-steps-elm">
+          <div class="home-thq-content-elm3">
+            <div class="home-thq-information-elm">
+              <div class="home-thq-main-elm3">
+                <div class="home-thq-header-elm4">
+                  <h2 class="home-thq-heading-elm3">Events</h2>
+                  <p class="home-thq-caption-elm3">
+                    Need help setting up for gatherings such as birthday,
+                    graduation parties, reunions? I can help!
+                  </p>
+                </div>
+              </div>
+              <div class="home-thq-button-elm"></div>
+            </div>
+            <steps-wrapper class="steps-wrapper">
+              <!--Steps component-->
+              <div class="steps-thq-steps-list-elm">
+                <div class="steps-thq-list-elm">
+                  <div class="steps-thq-section-elm1">
+                    <number-wrapper class="number-wrapper">
+                      <!--Number component-->
+                      <div class="number-thq-number-elm number">
+                        <span class="number-text"><span>1</span></span>
+                      </div>
+                    </number-wrapper>
+                    <span class="steps-thq-caption-elm1">
+                      <span>Balloon Arches</span>
+                    </span>
+                  </div>
+                  <div class="steps-thq-divider-elm1"></div>
+                  <div class="steps-thq-section-elm2">
+                    <number-wrapper-e8ux
+                      class="number-wrapper-e8ux"
+                      rootclassname="numberundefined"
+                    >
+                      <!--Number component-->
+                      <div
+                        class="number-thq-number-elm1 number numberroot-class-name"
+                      >
+                        <span class="number-text1"><span>2</span></span>
+                      </div>
+                    </number-wrapper-e8ux>
+                    <span class="steps-thq-caption-elm2">
+                      <span>Charcuterie boards</span>
+                    </span>
+                  </div>
+                  <div class="steps-thq-divider-elm2"></div>
+                  <div class="steps-thq-section-elm3">
+                    <number-wrapper-zgnn
+                      class="number-wrapper-zgnn"
+                      rootclassname="numberundefined"
+                    >
+                      <!--Number component-->
+                      <div
+                        class="number-thq-number-elm2 number numberroot-class-name1"
+                      >
+                        <span class="number-text2"><span>3</span></span>
+                      </div>
+                    </number-wrapper-zgnn>
+                    <span class="steps-thq-caption-elm3">
+                      <span>Banners</span>
+                    </span>
+                  </div>
+                  <div class="steps-thq-divider-elm3"></div>
+                  <div class="steps-thq-section-elm4">
+                    <number-wrapper-u1it
+                      class="number-wrapper-u1it"
+                      rootclassname="numberundefined"
+                    >
+                      <!--Number component-->
+                      <div
+                        class="number-thq-number-elm3 number numberroot-class-name2"
+                      >
+                        <span class="number-text3"><span>4</span></span>
+                      </div>
+                    </number-wrapper-u1it>
+                    <span class="steps-thq-caption-elm4">
+                      <span>Gift wrapping</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </steps-wrapper>
+            <img
+              alt="pastedImage"
+              src="public/external/pastedimage-mx1-400w.png"
+              class="home-thq-pasted-image-elm3"
+            />
+          </div>
+        </section>
+        <div class="home-thq-donate-elm"></div>
+        <section class="home-thq-updates-elm"></section>
+        <footer class="home-thq-footer-elm">
+          <div class="home-thq-middle-elm">
+            <span class="home-text6">reisworkiservices@gmail.com</span>
+            <span class="home-text7">Bellingham-Sammamish, WA</span>
+          </div>
+        </footer>
+        <div>
+          <div class="home-container3">
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                const slides = document.querySelectorAll('.slide');
+                let currentSlide = 0;
+
+                function showSlide(n) {
+                  slides[currentSlide].classList.remove('slide-active');
+                  currentSlide = (n + slides.length) % slides.length;
+                  slides[currentSlide].classList.add('slide-active');
+                }
+
+                const previousSlideButton = document.querySelector('#previous-slide');
+                previousSlideButton.addEventListener('click', () => {
+                  showSlide(currentSlide - 1);
+                });
+
+                const nextSlideButton = document.querySelector('#next-slide');
+                nextSlideButton.addEventListener('click', () => {
+                  showSlide(currentSlide + 1);
+                });
+              });
+            </script>
+          </div>
+        </div>
+        <div>
+          <div class="home-container5">
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                function setCookie(name, value, days) {
+                  // Set the cookie with the given name, value, and expiration time (in days)
+                  let expires = "";
+                  if (days) {
+                    let date = new Date();
+                    date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                    expires = "; expires=" + date.toUTCString();
+                  }
+                  document.cookie = name + "=" + (value || "") + expires + "; path=/";
+                }
+
+                function getCookie(name) {
+                  // Get the value of the cookie with the given name
+                  let nameEQ = name + "=";
+                  let ca = document.cookie.split(";");
+                  for (let i = 0; i < ca.length; i++) {
+                    let c = ca[i];
+                    while (c.charAt(0) === " ") c = c.substring(1, c.length);
+                    if (c.indexOf(nameEQ) === 0) return c.substring(nameEQ.length, c.length);
+                  }
+                  return null;
+                }
+
+                function removeCookie(name) {
+                  // Remove the cookie with the given name
+                  setCookie(name, "", -1); // Set the cookie with an expiration time of -1 days
+                }
+
+                document.getElementById("close").addEventListener("click", function(){
+                  // Get the persistence value
+                  let persistence = document.getElementById("banner").getAttribute("data-persistence");
+                  if (persistence === "true") {
+                    // If persistence is enabled, set a cookie to remember that the banner is closed
+                    setCookie("bannerClosed", "true", 1); // Set the cookie with an expiration time of 1 day
+                  } else {
+                    removeCookie("bannerClosed")
+                  }
+                  document.getElementById("banner").style.display = "none"; // Hide the banner
+                });
+
+                window.addEventListener("load", function() {
+                  // Check if the banner should be displayed or not
+                  let bannerClosed = getCookie("bannerClosed");
+                  if (bannerClosed === "true") {
+                    // If the bannerClosed cookie is set, hide the banner
+                    document.getElementById("banner").style.display = "none";
+                  }
+                });
+              });
+            </script>
+          </div>
+        </div>
+        <a href="https://play.teleporthq.io/signup" class="home-link">
+          <div aria-label="Sign up to TeleportHQ" class="home-container6">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 19 21"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              class="home-icon20"
+            >
+              <path
+                d="M9.1017 4.64355H2.17867C0.711684 4.64355 -0.477539 5.79975 -0.477539 7.22599V13.9567C-0.477539 15.3829 0.711684 16.5391 2.17867 16.5391H9.1017C10.5687 16.5391 11.7579 15.3829 11.7579 13.9567V7.22599C11.7579 5.79975 10.5687 4.64355 9.1017 4.64355Z"
+                fill="#B23ADE"
+              ></path>
+              <path
+                d="M10.9733 12.7878C14.4208 12.7878 17.2156 10.0706 17.2156 6.71886C17.2156 3.3671 14.4208 0.649963 10.9733 0.649963C7.52573 0.649963 4.73096 3.3671 4.73096 6.71886C4.73096 10.0706 7.52573 12.7878 10.9733 12.7878Z"
+                fill="#FF5C5C"
+              ></path>
+              <path
+                d="M17.7373 13.3654C19.1497 14.1588 19.1497 15.4634 17.7373 16.2493L10.0865 20.5387C8.67402 21.332 7.51855 20.6836 7.51855 19.0968V10.5141C7.51855 8.92916 8.67402 8.2807 10.0865 9.07221L17.7373 13.3654Z"
+                fill="#2874DE"
+              ></path>
+            </svg>
+            <span class="home-text8">Built in TeleportHQ</span>
+          </div>
+        </a>
+      </div>
+      <link rel="canonical" href="https://reiswork.teleporthq.app/" />
+    </div>
+    <script
+      defer=""
+      src="https://unpkg.com/@teleporthq/teleport-custom-scripts"
+    ></script>
+  </body>
+</html>
